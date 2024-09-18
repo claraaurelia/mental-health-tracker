@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-98yansg+k5s@p=v!&hgycthwi@wbzjok#ftd2*s@!j*2p71sym
 
 # SECURITY WARNING: don't run with debug turned on in production!
 PRODUCTION = os.getenv("PRODUCTION", False)
-DEBUG = not PRODUCTION
+DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "clara-aurelia-mentalhealthtracker2.pbp.cs.ui.ac.id"]
 
